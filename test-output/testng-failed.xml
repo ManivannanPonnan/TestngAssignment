@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="x" value="20"/>
+  <parameter name="y" value="40"/>
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="org.manitestng.Testngfirstclass">
+        <methods>
+          <include name="multiplication" invocation-numbers="0"/>
+          <include name="sub" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.manitestng.Testngfirstclass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

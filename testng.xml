@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+<groups>
+		<run>
+			<include name="ADD"></include>
+			<include name="SUB"></include>
+			<include name="MULT"></include>
+			<include name="Root"></include>
+			<exclude name="DIV"></exclude>
+		</run>
+	</groups>
+	<parameter name="x" value="20"></parameter>
+	<parameter name="y" value="40"></parameter>
+	<test name="Test">
+		 <classes>
+           <class name="org.manitestng.Testngfirstclass"/>
+           <class name="org.manitestng.Testngsecond"/>
+    </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

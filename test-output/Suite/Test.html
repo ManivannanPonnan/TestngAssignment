@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 23:30:48 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (291 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>ADD SUB MULT Root </td>
+</tr><tr>
+<td>Excluded groups:</td><td>DIV </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.manitestng.Testngfirstclass.add()'><b>add</b><br>Test class: org.manitestng.Testngfirstclass<br>Parameters: 20, 40<br/>
+<a href="#Output-2076804073" onClick='toggleBox("Output-2076804073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2076804073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2076804073">
+TestNG_ReportsAndLogs -> Add<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.manitestng.Testngfirstclass@1f1c7bf6</td></tr>
+<tr>
+<td title='org.manitestng.Testngsecond.squareRoot()'><b>squareRoot</b><br>Test class: org.manitestng.Testngsecond<br>Parameters: 2, 4<br/>
+<a href="#Output-131483272" onClick='toggleBox("Output-131483272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131483272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131483272">
+TestNG_ReportsAndLogs -> Root<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.manitestng.Testngsecond@25b485ba</td></tr>
+<tr>
+<td title='org.manitestng.Testngsecond.squareRoot()'><b>squareRoot</b><br>Test class: org.manitestng.Testngsecond<br>Parameters: 6, 8<br/>
+<a href="#Output-399418342" onClick='toggleBox("Output-399418342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-399418342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-399418342">
+TestNG_ReportsAndLogs -> Root<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.manitestng.Testngsecond@25b485ba</td></tr>
+<tr>
+<td title='org.manitestng.Testngsecond.squareRoot()'><b>squareRoot</b><br>Test class: org.manitestng.Testngsecond<br>Parameters: 12, 14<br/>
+<a href="#Output-572081553" onClick='toggleBox("Output-572081553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-572081553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-572081553">
+TestNG_ReportsAndLogs -> Root<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.manitestng.Testngsecond@25b485ba</td></tr>
+<tr>
+<td title='org.manitestng.Testngfirstclass.sub()'><b>sub</b><br>Test class: org.manitestng.Testngfirstclass<br>Parameters: 20, 40<br/>
+<a href="#Output-743640233" onClick='toggleBox("Output-743640233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-743640233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-743640233">
+TestNG_ReportsAndLogs -> Sub<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.manitestng.Testngfirstclass@1f1c7bf6</td></tr>
+</table><p>
+</body>
+</html>
